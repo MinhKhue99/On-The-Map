@@ -12,6 +12,7 @@ struct On_The_MapApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(UserViewModel.shared)
         }
     }
 }

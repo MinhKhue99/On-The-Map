@@ -11,6 +11,25 @@
 		503456572BD9543B00F11361 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503456562BD9543B00F11361 /* ContentView.swift */; };
 		503456592BD9543D00F11361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503456582BD9543D00F11361 /* Assets.xcassets */; };
 		5034565C2BD9543D00F11361 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5034565B2BD9543D00F11361 /* Preview Assets.xcassets */; };
+		503456682BD9636800F11361 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503456672BD9636800F11361 /* LoginView.swift */; };
+		503754672C061E6F00D8FCA4 /* AddLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503754662C061E6F00D8FCA4 /* AddLocationView.swift */; };
+		503754692C061EDA00D8FCA4 /* SingleLocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503754682C061EDA00D8FCA4 /* SingleLocationMapView.swift */; };
+		5037546B2C061F2500D8FCA4 /* AddLocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5037546A2C061F2500D8FCA4 /* AddLocationPreviewView.swift */; };
+		50524BF92BE3D5E1003A2E86 /* StudentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50524BF82BE3D5E1003A2E86 /* StudentLocation.swift */; };
+		50524BFB2BE3D612003A2E86 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50524BFA2BE3D612003A2E86 /* User.swift */; };
+		50650A842C02D5AE006B5DB6 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50650A832C02D5AE006B5DB6 /* LoadingView.swift */; };
+		50650A882C02E736006B5DB6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50650A872C02E736006B5DB6 /* MapView.swift */; };
+		50650A8A2C02E95A006B5DB6 /* StudentLocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50650A892C02E95A006B5DB6 /* StudentLocationListView.swift */; };
+		50650A8C2C02E975006B5DB6 /* StudentLocationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50650A8B2C02E975006B5DB6 /* StudentLocationRowView.swift */; };
+		509FE6742C023C5500B3AEC4 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509FE6732C023C5500B3AEC4 /* LoginRequest.swift */; };
+		509FE6762C023C7E00B3AEC4 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509FE6752C023C7E00B3AEC4 /* Error.swift */; };
+		509FE6782C023CEB00B3AEC4 /* StudentLocationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509FE6772C023CEB00B3AEC4 /* StudentLocationRequest.swift */; };
+		509FE67C2C023D6800B3AEC4 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509FE67B2C023D6800B3AEC4 /* UserResponse.swift */; };
+		509FE67E2C023F0200B3AEC4 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509FE67D2C023F0200B3AEC4 /* AuthService.swift */; };
+		509FE6802C023F9400B3AEC4 /* APIEnpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509FE67F2C023F9400B3AEC4 /* APIEnpoint.swift */; };
+		509FE6822C02403E00B3AEC4 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509FE6812C02403E00B3AEC4 /* UserService.swift */; };
+		509FE6862C024D5B00B3AEC4 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509FE6852C024D5B00B3AEC4 /* UserViewModel.swift */; };
+		50E37F212C018B630004B407 /* AlertContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E37F202C018B630004B407 /* AlertContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +38,25 @@
 		503456562BD9543B00F11361 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		503456582BD9543D00F11361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5034565B2BD9543D00F11361 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		503456672BD9636800F11361 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		503754662C061E6F00D8FCA4 /* AddLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationView.swift; sourceTree = "<group>"; };
+		503754682C061EDA00D8FCA4 /* SingleLocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLocationMapView.swift; sourceTree = "<group>"; };
+		5037546A2C061F2500D8FCA4 /* AddLocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationPreviewView.swift; sourceTree = "<group>"; };
+		50524BF82BE3D5E1003A2E86 /* StudentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocation.swift; sourceTree = "<group>"; };
+		50524BFA2BE3D612003A2E86 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		50650A832C02D5AE006B5DB6 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		50650A872C02E736006B5DB6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		50650A892C02E95A006B5DB6 /* StudentLocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocationListView.swift; sourceTree = "<group>"; };
+		50650A8B2C02E975006B5DB6 /* StudentLocationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocationRowView.swift; sourceTree = "<group>"; };
+		509FE6732C023C5500B3AEC4 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		509FE6752C023C7E00B3AEC4 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		509FE6772C023CEB00B3AEC4 /* StudentLocationRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocationRequest.swift; sourceTree = "<group>"; };
+		509FE67B2C023D6800B3AEC4 /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
+		509FE67D2C023F0200B3AEC4 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		509FE67F2C023F9400B3AEC4 /* APIEnpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEnpoint.swift; sourceTree = "<group>"; };
+		509FE6812C02403E00B3AEC4 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		509FE6852C024D5B00B3AEC4 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		50E37F202C018B630004B407 /* AlertContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +89,14 @@
 		503456532BD9543B00F11361 /* On The Map */ = {
 			isa = PBXGroup;
 			children = (
-				503456542BD9543B00F11361 /* On_The_MapApp.swift */,
-				503456562BD9543B00F11361 /* ContentView.swift */,
-				503456582BD9543D00F11361 /* Assets.xcassets */,
+				509FE6722C023BE200B3AEC4 /* Service */,
+				50E37F1D2C018AE70004B407 /* Extension */,
 				5034565A2BD9543D00F11361 /* Preview Content */,
+				503456622BD9605400F11361 /* App */,
+				503456652BD962F900F11361 /* Model */,
+				503456632BD9605E00F11361 /* Resource */,
+				503456642BD962EC00F11361 /* View */,
+				503456662BD962FF00F11361 /* ViewModel */,
 			);
 			path = "On The Map";
 			sourceTree = "<group>";
@@ -65,6 +107,78 @@
 				5034565B2BD9543D00F11361 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		503456622BD9605400F11361 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				503456542BD9543B00F11361 /* On_The_MapApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		503456632BD9605E00F11361 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				503456582BD9543D00F11361 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		503456642BD962EC00F11361 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				503456562BD9543B00F11361 /* ContentView.swift */,
+				503456672BD9636800F11361 /* LoginView.swift */,
+				50650A832C02D5AE006B5DB6 /* LoadingView.swift */,
+				50650A872C02E736006B5DB6 /* MapView.swift */,
+				50650A892C02E95A006B5DB6 /* StudentLocationListView.swift */,
+				50650A8B2C02E975006B5DB6 /* StudentLocationRowView.swift */,
+				503754662C061E6F00D8FCA4 /* AddLocationView.swift */,
+				503754682C061EDA00D8FCA4 /* SingleLocationMapView.swift */,
+				5037546A2C061F2500D8FCA4 /* AddLocationPreviewView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		503456652BD962F900F11361 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				509FE6752C023C7E00B3AEC4 /* Error.swift */,
+				509FE6732C023C5500B3AEC4 /* LoginRequest.swift */,
+				50524BF82BE3D5E1003A2E86 /* StudentLocation.swift */,
+				509FE6772C023CEB00B3AEC4 /* StudentLocationRequest.swift */,
+				50524BFA2BE3D612003A2E86 /* User.swift */,
+				509FE67B2C023D6800B3AEC4 /* UserResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		503456662BD962FF00F11361 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				509FE6852C024D5B00B3AEC4 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		509FE6722C023BE200B3AEC4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				509FE67F2C023F9400B3AEC4 /* APIEnpoint.swift */,
+				509FE67D2C023F0200B3AEC4 /* AuthService.swift */,
+				509FE6812C02403E00B3AEC4 /* UserService.swift */,
+			);
+			name = Service;
+			path = "Sẻvice";
+			sourceTree = "<group>";
+		};
+		50E37F1D2C018AE70004B407 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				50E37F202C018B630004B407 /* AlertContent.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +251,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509FE6822C02403E00B3AEC4 /* UserService.swift in Sources */,
+				50524BF92BE3D5E1003A2E86 /* StudentLocation.swift in Sources */,
+				503456682BD9636800F11361 /* LoginView.swift in Sources */,
+				50E37F212C018B630004B407 /* AlertContent.swift in Sources */,
+				50650A842C02D5AE006B5DB6 /* LoadingView.swift in Sources */,
+				509FE67E2C023F0200B3AEC4 /* AuthService.swift in Sources */,
 				503456572BD9543B00F11361 /* ContentView.swift in Sources */,
+				50524BFB2BE3D612003A2E86 /* User.swift in Sources */,
 				503456552BD9543B00F11361 /* On_The_MapApp.swift in Sources */,
+				50650A882C02E736006B5DB6 /* MapView.swift in Sources */,
+				509FE6862C024D5B00B3AEC4 /* UserViewModel.swift in Sources */,
+				50650A8C2C02E975006B5DB6 /* StudentLocationRowView.swift in Sources */,
+				5037546B2C061F2500D8FCA4 /* AddLocationPreviewView.swift in Sources */,
+				509FE6762C023C7E00B3AEC4 /* Error.swift in Sources */,
+				509FE6782C023CEB00B3AEC4 /* StudentLocationRequest.swift in Sources */,
+				503754692C061EDA00D8FCA4 /* SingleLocationMapView.swift in Sources */,
+				509FE6742C023C5500B3AEC4 /* LoginRequest.swift in Sources */,
+				50650A8A2C02E95A006B5DB6 /* StudentLocationListView.swift in Sources */,
+				503754672C061E6F00D8FCA4 /* AddLocationView.swift in Sources */,
+				509FE67C2C023D6800B3AEC4 /* UserResponse.swift in Sources */,
+				509FE6802C023F9400B3AEC4 /* APIEnpoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
