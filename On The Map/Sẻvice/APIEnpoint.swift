@@ -33,7 +33,7 @@ enum Endpoints {
             return "\(Endpoints.usersEndpoint)/\(userId)"
         case .getStudentLocations(let limit):
             if let limit = limit {
-                return "\(Endpoints.studentLocationEndpoint)?limit=\(limit)"
+                return "\(Endpoints.studentLocationEndpoint)?limit=\(limit)&order=-updatedAt"
             }
             return Endpoints.studentLocationEndpoint
         case .postStudentLocation:

@@ -28,7 +28,7 @@ struct UserService {
                         completionHandler(nil, errorResponse)
                     }
                 } catch {
-                    debugPrint(error)  // TODO: change to log
+                    debugPrint(error)
                     DispatchQueue.main.async {
                         completionHandler(nil, taskError)
                     }

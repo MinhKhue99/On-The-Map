@@ -35,12 +35,14 @@ class UserViewModel: ObservableObject {
                 )
                 return
             }
+            self.user = user
             UserService.getUserInfo(userId: user.userId) { userInfo, getUserInfoError in
                 self.isLoading = false
                 guard let userInfo = userInfo else {
                     self.alert = AlertContent(title: "Login Fail", message: getUserInfoError?.localizedDescription ?? "")
                     return
                 }
+                debugPrint("KhuePM userInfo: \(userInfo)")
                 self.user?.userInfo = userInfo
                 self.isLoggedIn = true
                 self.fetchStudentLocations()
@@ -130,7 +132,6 @@ class UserViewModel: ObservableObject {
             latitude: place!.location!.coordinate.latitude,
             longitude: place!.location!.coordinate.longitude,
             completionHandler: { studentLocation, error in
-                self.isLoading = false
                 guard let studentLocation = studentLocation else {
                     self.alert = AlertContent(
                         title: "Save Location Fail",
@@ -139,6 +140,7 @@ class UserViewModel: ObservableObject {
                     return
                 }
                 self.studentLocations.insert(studentLocation, at: 0)
+                self.isLoading = false
                 self.showPreview = false
             }
         )
